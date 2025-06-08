@@ -1,0 +1,13 @@
+
+[typhoon]
+	#Range: 1 ~ 10000000
+	typhoon_max_energy = 10000
+	#Range: 1 ~ 10000000
+	typhoon_hp = 100
+	#Range: 1 ~ 100
+	typhoon_energy_cost = 1
+	#Range: 0.01 ~ 1.0
+	typhoon_energy_multiplier = 0.1
+	#Range: 1 ~ 1000
+	typhoon_shoot_cost = 10
+

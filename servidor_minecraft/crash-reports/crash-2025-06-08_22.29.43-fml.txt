@@ -1,0 +1,170 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2025-06-08 22:29:43
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.3.7-universal.jar%23204!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.3.7-universal.jar%23204!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23199!/:?] {re:classloading}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Suspected Mods: NONE
+Stacktrace:
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0] {}
+-- MOD brute_force_rendering_culling --
+Details:
+	Mod File: /workspaces/server2/servidor_minecraft/mods/Brute force Rendering Culling-forge-1.20.1-0.5.12.jar
+	Failure message: Brute force Rendering Culling (brute_force_rendering_culling) has failed to load correctly
+		java.lang.RuntimeException: Attempted to load class com/mojang/blaze3d/pipeline/RenderTarget for invalid dist DEDICATED_SERVER
+	Mod Version: 0.5.12
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.RuntimeException: Attempted to load class com/mojang/blaze3d/pipeline/RenderTarget for invalid dist DEDICATED_SERVER
+Stacktrace:
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0] {}
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?] {re:mixin}
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3373) ~[?:?] {re:mixin}
+	at java.lang.Class.getConstructor0(Class.java:3578) ~[?:?] {re:mixin}
+	at java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23201!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23200!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.8.0-1027-azure
+	Java Version: 17.0.15, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 1853930336 bytes (1768 MiB) / 2147483648 bytes (2048 MiB) up to 10737418240 bytes (10240 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 7995.00
+	Virtual memory used (MB): 4233.22
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xms2G -Xmx10G
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		radium-mc1.20.1-0.12.4+git.26c9d8e.jar            |Radium                        |radium                        |0.12.4+git.26c9d8e  |COMMON_SET|Manifest: NOSIGNATURE
+		Fastload-Reforged-mc1.20.1-3.4.0.jar              |Fastload-Reforged             |fastload                      |3.4.0               |COMMON_SET|Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.7.1.3.jar                 |GeckoLib 4                    |geckolib                      |4.7.1.3             |COMMON_SET|Manifest: NOSIGNATURE
+		player-animation-lib-forge-1.0.2-rc1+1.20.jar     |Player Animator               |playeranimator                |1.0.2-rc1+1.20      |COMMON_SET|Manifest: NOSIGNATURE
+		fastboot-1.20.x-1.2.jar                           |FastBoot                      |fastboot                      |1.2                 |COMMON_SET|Manifest: NOSIGNATURE
+		tacz-1.20.1-1.1.5-all.jar                         |Timeless & Classics Guns: Zero|tacz                          |1.1.5               |COMMON_SET|Manifest: NOSIGNATURE
+		Brute force Rendering Culling-forge-1.20.1-0.5.12.|Brute force Rendering Culling |brute_force_rendering_culling |0.5.12              |ERROR     |Manifest: NOSIGNATURE
+		flerovium-forge-1.20.1-1.2.14-all.jar             |Flerovium                     |flerovium                     |1.2.14              |COMMON_SET|Manifest: NOSIGNATURE
+		gpumemleakfix-1.20.1-1.8.jar                      |Gpu memory leak fix           |gpumemleakfix                 |1.20.1-1.8          |COMMON_SET|Manifest: NOSIGNATURE
+		marbledsarsenal-1.20.1forge-2.3.0.3.jar           |Marbled's Arsenal             |marbledsarsenal               |2.3.0.3             |COMMON_SET|Manifest: NOSIGNATURE
+		FastSuite-1.20.1-5.1.0.jar                        |Fast Suite                    |fastsuite                     |5.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		Clumps-forge-1.20.1-12.0.0.4.jar                  |Clumps                        |clumps                        |12.0.0.4            |COMMON_SET|Manifest: NOSIGNATURE
+		fastasyncworldsave-1.20.1-2.4.jar                 |fastasyncworldsave mod        |fastasyncworldsave            |1.20.1-2.4          |COMMON_SET|Manifest: NOSIGNATURE
+		Placebo-1.20.1-8.6.3.jar                          |Placebo                       |placebo                       |8.6.3               |COMMON_SET|Manifest: NOSIGNATURE
+		modernfix-forge-5.23.1+mc1.20.1.jar               |ModernFix                     |modernfix                     |5.23.1+mc1.20.1     |COMMON_SET|Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.20.0.106.jar                  |Just Enough Items             |jei                           |15.20.0.106         |COMMON_SET|Manifest: NOSIGNATURE
+		enchanted_arsenal-1.0.1-forge-1.20.1.jar          |Enchanted Arsenal             |enchanted_arsenal             |1.0.1               |COMMON_SET|Manifest: NOSIGNATURE
+		mcore-1.20.1-1.0.3.0.jar                          |Marbled's Core                |mcore                         |1.0.3.0             |COMMON_SET|Manifest: NOSIGNATURE
+		mixinextras-forge-0.4.1.jar                       |MixinExtras                   |mixinextras                   |0.4.1               |COMMON_SET|Manifest: NOSIGNATURE
+		BeeFix-1.20-1.0.7.jar                             |Bee Fix                       |beefix                        |1.0.7               |COMMON_SET|Manifest: NOSIGNATURE
+		superbwarfare-1.20.1-0.8.1-bd6e6fe90.jar          |Superb Warfare                |superbwarfare                 |0.8.1               |COMMON_SET|Manifest: NOSIGNATURE
+		warborn-1.20.1-2.3.3.jar                          |Warborn                       |warborn                       |2.3.3               |COMMON_SET|Manifest: NOSIGNATURE
+		cloth-config-11.1.136-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.136            |COMMON_SET|Manifest: NOSIGNATURE
+		forge-1.20.1-47.3.7-universal.jar                 |Forge                         |forge                         |47.3.7              |COMMON_SET|Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		sona-1.20.1-forge-1.2.5-fix1.jar                  |Sona Survival 101             |sona                          |1.2.5               |COMMON_SET|Manifest: NOSIGNATURE
+		Zombie Survival Kit-1.20.1-forge-2.1.3-fix2.jar   |Zombie Survival Kit           |zombiekit                     |2.1.3               |COMMON_SET|Manifest: NOSIGNATURE
+		fastchest-reforged-1.4+1.20.jar                   |FastChest Reforged            |fastchest                     |1.4+1.20            |COMMON_SET|Manifest: NOSIGNATURE
+		server-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+		mcsp-0.0.84.jar                                   |MCSP                          |mcsp                          |0.0.84              |COMMON_SET|Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.20.1-2.25.1.jar             |Mouse Tweaks                  |mousetweaks                   |2.25.1              |COMMON_SET|Manifest: NOSIGNATURE
+		lrarmor-1.20.1-0.1.4.3.jar                        |LesRaisinsArmor               |lrarmor                       |0.1.4.3             |COMMON_SET|Manifest: NOSIGNATURE
+		survival_instinct-1.0.0-forge-1.20.1.jar          |Survival Instinct             |survival_instinct             |1.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		guccivuitton-1.20.1-0.2.2.jar                     |Gucci & Vuitton Attachments   |guccivuitton                  |0.2.2               |COMMON_SET|Manifest: NOSIGNATURE
+		lrtactical-1.20.1-0.2.4.jar                       |LesRaisins Tactical Equipments|lrtactical                    |0.2.4               |COMMON_SET|Manifest: NOSIGNATURE
+		betterfpsdist-1.20.1-6.0.jar                      |betterfpsdist mod             |betterfpsdist                 |1.20.1-6.0          |COMMON_SET|Manifest: NOSIGNATURE
+		leaky-1.20.1-2.1.jar                              |leaky mod                     |leaky                         |1.20.1-2.1          |COMMON_SET|Manifest: NOSIGNATURE
+		curios-forge-5.14.1+1.20.1.jar                    |Curios API                    |curios                        |5.14.1+1.20.1       |COMMON_SET|Manifest: NOSIGNATURE
+		endlessammo-1.2.0.jar                             |TACZAddonTemplate             |endlessammo                   |1.2.0               |COMMON_SET|Manifest: NOSIGNATURE
+		FastWorkbench-1.20.1-8.0.4.jar                    |Fast Workbench                |fastbench                     |8.0.4               |COMMON_SET|Manifest: NOSIGNATURE
+		marbledsfirstaid-1.20.1forge-1.1.0.3.jar.jar      |Marbled's First Aid           |marbledsfirstaid              |1.1.0.3             |COMMON_SET|Manifest: NOSIGNATURE
+		ImmediatelyFast-Forge-1.5.0+1.20.4.jar            |ImmediatelyFast               |immediatelyfast               |1.5.0+1.20.4        |COMMON_SET|Manifest: NOSIGNATURE
+		FastFurnace-1.20.1-8.0.2.jar                      |FastFurnace                   |fastfurnace                   |8.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |COMMON_SET|Manifest: NOSIGNATURE
+		spore_1.20.1_2.1.4c.jar                           |Spore                         |spore                         |2.1.4               |COMMON_SET|Manifest: NOSIGNATURE
+		ferritecore-6.0.1-forge.jar                       |Ferrite Core                  |ferritecore                   |6.0.1               |COMMON_SET|Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		dimthread-FORGE-mc1.20.1-v1.2.1.jar               |DimThreads                    |dimthread                     |1.2.1               |COMMON_SET|Manifest: NOSIGNATURE
+		cupboard-1.20.1-2.7.jar                           |Cupboard utilities            |cupboard                      |1.20.1-2.7          |COMMON_SET|Manifest: NOSIGNATURE
+		dynamic-fps-3.9.4+minecraft-1.20.0-forge.jar      |Dynamic FPS                   |dynamic_fps                   |3.9.4               |COMMON_SET|Manifest: NOSIGNATURE
+		spore_nightmare-1.0.3c.jar                        |Spore Addon: Nightmare        |spore_nightmare               |1.0.3c              |COMMON_SET|Manifest: NOSIGNATURE
+		FastLeafDecay-32.jar                              |Fast Leaf Decay               |fastleafdecay                 |32                  |COMMON_SET|Manifest: NOSIGNATURE
+		lradd-1.20.1-0.3.0.jar                            |LesRaisinsAddon               |lradd                         |0.3.0               |COMMON_SET|Manifest: NOSIGNATURE
+		maxstuff-1.8.1.jar                                |Maxstuff                      |maxstuff                      |1.8.1               |COMMON_SET|Manifest: NOSIGNATURE
+	Crash Report UUID: 34bfc968-5add-46f5-8b9b-95935ec71569
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.7
