@@ -1,0 +1,39 @@
+{
+  "zombiekit:zombie_kit": {
+    "criteria": {
+      "zombie_kit": "2025-06-11 21:20:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-06-11 21:20:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-06-11 21:22:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:wooded_badlands": "2025-06-11 21:20:19 -0500"
+    },
+    "done": false
+  },
+  "zombiekit:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2025-06-11 21:20:11 -0500"
+    },
+    "done": true
+  },
+  "superbwarfare:main/root": {
+    "criteria": {
+      "0": "2025-06-11 21:20:11 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
