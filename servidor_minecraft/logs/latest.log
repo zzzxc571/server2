@@ -502,3 +502,40 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 [14Jun2025 02:51:27.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Survival Mode]
 [14Jun2025 03:03:52.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Creative Mode]
 [14Jun2025 03:03:58.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Survival Mode]
+[14Jun2025 03:18:03.876] [dimthread_server_overworld/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['cheesepuff'/26600, l='ServerLevel[Mundo nuevo]', x=-270.49, y=63.00, z=432.28] died: cheesepuff was shot by Skeleton
+[14Jun2025 03:19:03.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Creative Mode]
+[14Jun2025 03:19:10.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Survival Mode]
+[14Jun2025 03:21:18.227] [dimthread_server_overworld/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['Hypnotizd'/30176, l='ServerLevel[Mundo nuevo]', x=-203.08, y=0.00, z=519.68] died: Hypnotizd was slain by Revived
+[14Jun2025 03:22:12.177] [dimthread_server_overworld/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['The_Harbinger69'/29508, l='ServerLevel[Mundo nuevo]', x=-91.80, y=74.42, z=460.69] died: The_Harbinger69 was slain by Zombie
+[14Jun2025 03:23:14.477] [dimthread_server_overworld/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['BigXplosion'/30857, l='ServerLevel[Mundo nuevo]', x=-101.96, y=80.00, z=446.18] died: BigXplosion was slain by Revived
+[14Jun2025 03:24:54.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set the time to 1000]
+[14Jun2025 03:28:00.175] [dimthread_server_overworld/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['gregTheTyrant'/32252, l='ServerLevel[Mundo nuevo]', x=-87.68, y=73.00, z=466.46] died: gregTheTyrant was slain by Demolisher
+[14Jun2025 03:33:13.326] [dimthread_server_overworld/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ has made the advancement [Pulsating Goober]
+[14Jun2025 03:35:44.416] [Server thread/INFO] [Warborn/ChestplateGunMixin/]:  raiden_ Reloading
+[14Jun2025 03:35:44.416] [Server thread/INFO] [Warborn/ChestplateGunMixin/]: Reload already allowed, skipping chestplate check
+[14Jun2025 03:37:03.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ has reached the goal [Strong or Careful]
+[14Jun2025 03:37:03.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ was killed
+[14Jun2025 03:37:03.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ has made the advancement [Your First Grave]
+[14Jun2025 03:37:03.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Killed raiden_]
+[14Jun2025 03:37:03.023] [Server thread/INFO] [tombstone/]: The player raiden_ has successfully been saved
+[14Jun2025 03:37:21.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ has made the advancement [Suit Up]
+[14Jun2025 03:37:25.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Creative Mode]
+[14Jun2025 03:37:38.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Survival Mode]
+[14Jun2025 03:40:53.306] [Server thread/INFO] [Warborn/ChestplateGunMixin/]:  raiden_ Reloading
+[14Jun2025 03:40:53.306] [Server thread/INFO] [Warborn/ChestplateGunMixin/]: Reload already allowed, skipping chestplate check
+[14Jun2025 03:43:25.126] [dimthread_server_overworld/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ has made the advancement [Funny explosion meme]
+[14Jun2025 03:43:35.626] [dimthread_server_overworld/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ has made the advancement [Sir Arthur is that you ?]
+[14Jun2025 03:43:40.208] [Server thread/INFO] [Warborn/ChestplateGunMixin/]:  raiden_ Reloading
+[14Jun2025 03:43:40.209] [Server thread/INFO] [Warborn/ChestplateGunMixin/]: Reload already allowed, skipping chestplate check
+[14Jun2025 03:43:51.421] [Server thread/INFO] [Warborn/ChestplateGunMixin/]:  raiden_ Reloading
+[14Jun2025 03:43:51.421] [Server thread/INFO] [Warborn/ChestplateGunMixin/]: Reload already allowed, skipping chestplate check
+[14Jun2025 03:45:04.626] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: raiden_ lost connection: Disconnected
+[14Jun2025 03:45:04.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ left the game
+[14Jun2025 03:45:14.189] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: raiden_[/100.66.126.36:65068] logged in with entity id 46079 at (-269.1999631959627, 72.0, 327.84754283264147)
+[14Jun2025 03:45:14.211] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player raiden_
+[14Jun2025 03:45:14.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ joined the game
+[14Jun2025 03:49:28.628] [dimthread_server_overworld/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ has made the advancement [Atlantis must be real]
+[14Jun2025 03:50:50.654] [Server thread/INFO] [Warborn/ChestplateGunMixin/]:  raiden_ Reloading
+[14Jun2025 03:50:50.654] [Server thread/INFO] [Warborn/ChestplateGunMixin/]: Reload already allowed, skipping chestplate check
+[14Jun2025 03:51:29.177] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: raiden_ lost connection: Disconnected
+[14Jun2025 03:51:29.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ left the game
