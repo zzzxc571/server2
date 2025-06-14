@@ -555,3 +555,15 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 [14Jun2025 04:12:15.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Survival Mode]
 [14Jun2025 04:15:26.076] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: raiden_ lost connection: Disconnected
 [14Jun2025 04:15:26.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ left the game
+[14Jun2025 04:16:03.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Jun2025 04:16:03.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Jun2025 04:16:03.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Jun2025 04:16:03.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[14Jun2025 04:16:03.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[14Jun2025 04:16:03.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/lostcities:lostcity
+[14Jun2025 04:16:03.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[14Jun2025 04:16:03.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Jun2025 04:16:03.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Jun2025 04:16:03.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[14Jun2025 04:16:03.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Jun2025 04:16:03.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
