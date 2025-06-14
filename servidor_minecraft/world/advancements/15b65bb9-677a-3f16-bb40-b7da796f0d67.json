@@ -75,7 +75,8 @@
       "apple": "2025-06-12 02:39:30 +0000",
       "potato": "2025-06-12 02:39:43 +0000",
       "bread": "2025-06-12 02:39:05 +0000",
-      "rotten_flesh": "2025-06-12 02:39:48 +0000"
+      "rotten_flesh": "2025-06-12 02:39:48 +0000",
+      "enchanted_golden_apple": "2025-06-14 04:12:21 +0000"
     },
     "done": false
   },
@@ -1054,12 +1055,6 @@
     },
     "done": true
   },
-  "spore:inf_drowned": {
-    "criteria": {
-      "hurt_infected": "2025-06-14 03:49:28 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-06-14 03:48:22 +0000"
@@ -1075,6 +1070,24 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-06-14 03:48:22 +0000"
+    },
+    "done": true
+  },
+  "spore:inf_drowned": {
+    "criteria": {
+      "hurt_infected": "2025-06-14 03:49:28 +0000"
+    },
+    "done": true
+  },
+  "marbledsfirstaid:marbleds_first_aid/root": {
+    "criteria": {
+      "medkit": "2025-06-14 04:08:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-06-14 04:12:14 +0000"
     },
     "done": true
   },

@@ -539,3 +539,19 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 [14Jun2025 03:50:50.654] [Server thread/INFO] [Warborn/ChestplateGunMixin/]: Reload already allowed, skipping chestplate check
 [14Jun2025 03:51:29.177] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: raiden_ lost connection: Disconnected
 [14Jun2025 03:51:29.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ left the game
+[14Jun2025 04:01:00.930] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: raiden_[/100.66.126.36:65160] logged in with entity id 51967 at (-333.48771755462036, 126.0, 367.7308207331059)
+[14Jun2025 04:01:00.954] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player raiden_
+[14Jun2025 04:01:00.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ joined the game
+[14Jun2025 04:01:26.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Teleported raiden_ to -181.500000, 102.500000, 456.500000]
+[14Jun2025 04:02:39.305] [Server thread/INFO] [Warborn/ChestplateGunMixin/]:  raiden_ Reloading
+[14Jun2025 04:02:39.305] [Server thread/INFO] [Warborn/ChestplateGunMixin/]: Reload already allowed, skipping chestplate check
+[14Jun2025 04:05:06.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Added raiden_ to the whitelist]
+[14Jun2025 04:05:14.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Whitelist is now turned on]
+[14Jun2025 04:05:41.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Whitelist is now turned off]
+[14Jun2025 04:07:49.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Creative Mode]
+[14Jun2025 04:08:29.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ has made the advancement [Marbled's First Aid]
+[14Jun2025 04:12:08.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Survival Mode]
+[14Jun2025 04:12:10.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Creative Mode]
+[14Jun2025 04:12:15.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [raiden_: Set own game mode to Survival Mode]
+[14Jun2025 04:15:26.076] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: raiden_ lost connection: Disconnected
+[14Jun2025 04:15:26.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raiden_ left the game
